@@ -1,0 +1,89 @@
+
+.centered-container {
+  text-align: center;
+  margin-bottom: 20px; /* Khoảng cách phía dưới */
+}
+
+.centered-container input {
+  margin-top: 10px; /* Khoảng cách giữa h2 và input */
+  padding: 8px;
+  width: 200px; /* Độ rộng của ô tìm kiếm */
+  font-size: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  
+}
+
+form input {
+  margin-bottom: 15px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+
+.student-list {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.student-list div {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+}
+
+.student-list p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.student-list button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-list button:first-of-type {
+  background-color: #2196F3;
+  color: white;
+}
+
+.student-list button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+.student-list button:hover {
+  opacity: 0.9;
+}
