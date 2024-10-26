@@ -5,7 +5,9 @@ const studentSchema = new mongoose.Schema({
     name: { type: String, required: true },
     birthDate: { type: Date, required: true },
     gpa: { type: Number, required: true, min: 0, max: 4 },
-    major: { type: String, required: true }
+    major: { type: String, required: true },
+    majors: { type: String, required: true },
+    majorss: { type: String, required: true },
 });
 
 const Student = mongoose.model('Student', studentSchema);
