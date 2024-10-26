@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const Student = require('./src/models/studentModel');
+const example = require('./src/models/studentModel');
 
 const app = express();
 app.use(express.json());
