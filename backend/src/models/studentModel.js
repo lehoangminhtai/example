@@ -6,11 +6,7 @@ const studentSchema = new mongoose.Schema({
     birthDate: { type: Date, required: true },
     gpa: { type: Number, required: true, min: 0, max: 4 },
     major: { type: String, required: true },
-    majors: { type: String, required: true },
-    majorss: { type: String, required: true },
-    majorss: { type: String, required: true },
-    majorss: { type: String, required: true },
-    majorss: { type: String, required: true },
+    friend: String
 });
 
 const Student = mongoose.model('Student', studentSchema);
