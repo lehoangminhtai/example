@@ -8,10 +8,12 @@ const studentSchema = new mongoose.Schema({
     major: { type: String, required: true },
     friend: String,
     category: String,
-    study: String,
 
 
-    abc:  Number
+    class: String,
+
+    teacher: String
+
 });
 
 const Student = mongoose.model('Student', studentSchema);
