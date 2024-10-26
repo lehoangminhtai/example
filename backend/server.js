@@ -70,7 +70,7 @@ app.get('/api/students/statistics', async (req, res) => {
     res.json({ highestGpaStudent, lowestGpaStudent });
 });
 
-const PORT = 4000;
+const PORT = 4040;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
