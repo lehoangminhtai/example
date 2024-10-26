@@ -7,7 +7,11 @@ const studentSchema = new mongoose.Schema({
     gpa: { type: Number, required: true, min: 0, max: 4 },
     major: { type: String, required: true },
     friend: String,
-    category: String
+    category: String,
+
+    class: String,
+
+    teacher: String
 });
 
 const Student = mongoose.model('Student', studentSchema);
