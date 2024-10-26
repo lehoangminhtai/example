@@ -8,6 +8,9 @@ const studentSchema = new mongoose.Schema({
     major: { type: String, required: true },
     majors: { type: String, required: true },
     majorss: { type: String, required: true },
+    majorss: { type: String, required: true },
+    majorss: { type: String, required: true },
+    majorss: { type: String, required: true },
 });
 
 const Student = mongoose.model('Student', studentSchema);
